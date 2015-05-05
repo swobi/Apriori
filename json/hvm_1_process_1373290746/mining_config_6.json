@@ -1,0 +1,24 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_SRMS_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_SRAC_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_SRMS_", 
+		"datatype": "text"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "MEM",
+    	"parameter":{
+        	"Support_threshold" : 0.1,
+        	"Confidence_threshold" : 0.8
+      	}
+	}
+}

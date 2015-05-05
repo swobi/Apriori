@@ -1,0 +1,28 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_ACTS_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_SPMS_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_SPSD_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_TOFS_1_32", 
+		"datatype": "text"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "SQL",
+    	"parameter":{
+        	"Support_threshold" : 0.1,
+        	"Confidence_threshold" : 0.8
+      	}
+	}
+}

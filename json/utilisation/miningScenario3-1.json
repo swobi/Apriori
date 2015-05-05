@@ -1,0 +1,64 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_ALAM_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_CONS_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_PARA_6750_6750_N", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_PARA_6751_6751_N", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_MODA_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_POSM_T", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_POSR_T", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_POSA_T", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_POSD_T", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_SPMC_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_SRAC_", 
+		"datatype": "text"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "MEM",
+    	"parameter":{
+        	"Support_threshold" : 0.3,
+        	"Confidence_threshold" : 0.8
+      	}
+	},
+	"filter":[
+	{
+		"dbcolumn" : "G_ALAM_",
+		"datatype" : "discrete",
+		"type" : "=",
+		"criteria" : "1" 
+	}
+	]
+}

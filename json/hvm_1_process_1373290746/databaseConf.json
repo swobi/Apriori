@@ -1,0 +1,15 @@
+{  
+	"input":{
+  		"host": "jdbc:mysql://localhost/",    
+  		"user": "root",          
+  		"password": "sherry",      
+  		"database" : "testdata",     
+  		"import_table" : "hvm_1_process_1373290746", 
+	},
+	"output":{
+		"host": "jdbc:mysql://localhost/",    
+  		"user": "root",          
+  		"password": "sherry",      
+  		"database" : "result",     
+  	} 
+}

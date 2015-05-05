@@ -1,0 +1,126 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_ALAM_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_SRMC_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_SRMS_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_SPMC_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_ACTS_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_SPMS_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_SPSD_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_ELCT_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_CYCT_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_CUTT_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_OPRT_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_CONS_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_GCOD_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_AUMO_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_POSA_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_ACTF_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_NONG_F", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_FERP_", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_EXEP_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_SEQN_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_PRGM_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_PRGR_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_NONG_T", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_PMCY_X_0_0", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_PMCY_Y_0_0", 
+		"datatype": "discrete"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "SQL",
+    	"parameter":{
+        	"Support_threshold" : 0.2,
+        	"Confidence_threshold" : 0.8
+      	}
+	},
+	"filter":[
+	{
+		"dbcolumn" : "G_ALAM_",
+		"datatype" : "text",
+		"type" : "!=",
+		"criteria" : "-1" 
+	},
+	{
+		"dbcolumn" : "G_ALAM_",
+		"datatype" : "text",
+		"type" : "!=",
+		"criteria" : "B" 
+	}
+	]
+}

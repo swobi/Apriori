@@ -1,0 +1,70 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_ALAM_"
+	},
+	{
+		"dbcolumn": "G_PRGM_"
+	},
+	{
+		"dbcolumn": "G_CONS_"
+	},
+	{
+		"dbcolumn": "G_AUMO_"
+	},
+	{
+		"dbcolumn": "G_PARA_6750_6750_N"
+	},
+	{
+		"dbcolumn": "G_PARA_6751_6751_N"
+	},
+	{
+		"dbcolumn": "G_MODA_"
+	},
+	{
+		"dbcolumn": "G_POSM_T"
+	},
+	{
+		"dbcolumn": "G_POSR_T"
+	},
+	{
+		"dbcolumn": "G_POSA_T"
+	},
+	{
+		"dbcolumn": "G_POSD_T"
+	},
+	{
+		"dbcolumn": "G_ACTF_"
+	},
+	{
+		"dbcolumn": "G_FERP_"
+	},
+	{
+		"dbcolumn": "G_EXEP_"
+	},
+	{
+		"dbcolumn": "G_TOFS_1_32"
+	},
+	{
+		"dbcolumn": "G_PICH_0_1023"
+	},
+	{
+		"dbcolumn": "G_ZOFS_0_6"
+	},
+	{
+		"dbcolumn": "G_ACTS_"
+	},
+	{
+		"dbcolumn": "G_SPMS_"
+	},
+	{
+		"dbcolumn": "G_SPSD_"
+	},
+	{
+		"dbcolumn": "G_SPMC_"
+	},
+	{
+		"dbcolumn": "G_SRAC_"
+	}
+	]
+}

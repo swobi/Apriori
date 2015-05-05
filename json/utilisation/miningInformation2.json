@@ -1,0 +1,42 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_ALAM_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_SRAC_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_PARA_6750_6750_N", 
+		"datatype": "continuous"
+	},
+	{
+		"dbcolumn": "G_PRGM_", 
+		"datatype": "text"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "SQL",
+    	"parameter":{
+        	"Support_threshold" : 0.05,
+        	"Confidence_threshold" : 0.8
+      	}
+	},
+	"filter":[
+	{
+		"dbcolumn" : "G_PRGM_",
+		"datatype" : "text",
+		"type" : "=",
+		"criteria" : "O0010" 
+	},
+	{
+		"dbcolumn" : "G_SRAC_",
+		"datatype" : "text",
+		"type" : "=",
+		"criteria" : "\"[-12,25,6,0]\"" 
+	}
+	]
+}

@@ -1,0 +1,15 @@
+{  
+	"input":{
+  		"host": "jdbc:mysql://localhost/",    
+  		"user": "root",          
+  		"password": "sherry",      
+  		"database" : "testdata",     
+  		"import_table" : "utilisation", 
+	},
+	"output":{
+		"host": "jdbc:mysql://localhost/",    
+  		"user": "root",          
+  		"password": "sherry",      
+  		"database" : "result",     
+  	} 
+}

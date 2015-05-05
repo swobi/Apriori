@@ -1,0 +1,38 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_ALAM_", 
+		"datatype": "discrete"
+	},
+	{
+		"dbcolumn": "G_PRGM_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_EXEP_", 
+		"datatype": "text"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "MEM",
+    	"parameter":{
+        	"Support_threshold" : 0,
+        	"Confidence_threshold" : 0.5
+      	}
+	},
+	"filter":[
+	{
+		"dbcolumn" : "G_ALAM_",
+		"datatype" : "text",
+		"type" : "!=",
+		"criteria" : "-1" 
+	},
+	{
+		"dbcolumn" : "G_EXEP_",
+		"datatype" : "text",
+		"type" : "!=",
+		"criteria" : " " 
+	}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_MODA_", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_ALAM_", 
+		"datatype": "discrete"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "MEM",
+    	"parameter":{
+        	"Support_threshold" : 0.05,
+        	"Confidence_threshold" : 0.8
+      	}
+	}
+}

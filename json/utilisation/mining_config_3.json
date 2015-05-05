@@ -1,0 +1,20 @@
+{
+	"input":[
+	{
+		"dbcolumn": "G_TOFS_1_32", 
+		"datatype": "text"
+	},
+	{
+		"dbcolumn": "G_PRGM_", 
+		"datatype": "text"
+	}
+	],
+	"action":{
+		"type" : "association",
+		"kernel_type" : "SQL",
+    	"parameter":{
+        	"Support_threshold" : 0.1,
+        	"Confidence_threshold" : 0.8
+      	}
+	}
+}
